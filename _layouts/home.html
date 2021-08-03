@@ -1,10 +1,13 @@
 ---
-layout: articles
+layout: default
 heading: 'Your awesome heading'
 subheading: 'Your awesome subheading'
 banner: 'default'
 ---
+{%- include views/services.html -%}
+
+{%- include views/team.html -%}
+
 <h2> Current news and updates</h2>
 
-    {{ content }}
-
+{%- include views/articles.html -%}
