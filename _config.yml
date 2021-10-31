@@ -210,6 +210,5 @@ plugins:
   - jekyll-paginate
   - jekyll-spaceship
 
-
-- name: Jekyll Deploy Action
-  uses: jeffreytse/jekyll-deploy-action@v0.3.1
+name: Jekyll Deploy Action
+uses: jeffreytse/jekyll-deploy-action@v0.3.1
