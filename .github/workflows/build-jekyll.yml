@@ -34,5 +34,10 @@ jobs:
           actor: ''                  # Default is the GITHUB_ACTOR
           pre_build_commands: ''     # Installing additional dependencies (Arch Linux)
           
-- name: Jekyll Deploy Action
-  uses: jeffreytse/jekyll-deploy-action@v0.3.1
+name: Jekyll Deploy Action
+uses: jeffreytse/jekyll-deploy-action@v0.3.1
+
+on:
+  schedule:
+    - cron:  '0 * * * *'
+
