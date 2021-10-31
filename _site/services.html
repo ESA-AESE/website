@@ -18,7 +18,7 @@
 <meta name="twitter:card" content="summary">
 <meta property="twitter:title" content="Services">
 <script type="application/ld+json">
-{"url":"/services.html","@type":"WebPage","author":{"@type":"Person","name":"uOttawa ESA"},"headline":"Services","@context":"https://schema.org"}</script>
+{"@type":"WebPage","url":"/services.html","headline":"Services","author":{"@type":"Person","name":"uOttawa ESA"},"@context":"https://schema.org"}</script>
 <!-- End Jekyll SEO tag -->
 <link rel="shortcut icon" href="/assets/images/logo/logo.png">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
@@ -553,6 +553,35 @@ function googleTranslateElementInit() {
 
 
 
+<div class="alert">
+      <span class="closebtn" onclick="this.parentElement.style.display='none';">×</span> 
+     <center><strong><a href="http://eepurl.com/gy2UKj" style="color: white;">Click here to subscribe to our newsletter!</a></strong></center>
+      </div>
+      
+      
+      <style>
+          .alert {
+            padding: 20px;
+            background-color: green;
+            color: white;
+            margin-bottom: 15px;
+          }
+          
+          .closebtn {
+            margin-left: 15px;
+            color: white;
+            font-weight: bold;
+            float: right;
+            font-size: 22px;
+            line-height: 20px;
+            cursor: pointer;
+            transition: 0.3s;
+          }
+          
+          .closebtn:hover {
+            color: black;
+          }
+          </style>
 <script>
   function hashLocate(hashValue) {
     hashValue = hashValue.replace(/^.*#h-/, '');
@@ -615,7 +644,7 @@ function googleTranslateElementInit() {
   (function() {
     var sw = document.getElementById('theme-switch');
     var html = document.getElementsByTagName('html')[0];
-    var nightModeOption = ('on/off' || 'auto').toLowerCase();
+    var nightModeOption = ('auto' || 'auto').toLowerCase();
     var storage = nightModeOption === 'manual'
         ? localStorage
         : sessionStorage;
@@ -724,98 +753,77 @@ function googleTranslateElementInit() {
 
     <div class="post-content e-content" itemprop="articleBody">
 
-      <div class="description">
+      <meta name="viewport" content="width=device-width, initial-scale=1">
+
   <h2>Services</h2>
   <div style="font-size: medium;">
-  Here are your representatives for the academic term 2021-22.
+  Here are your some of the services that the ESA offers. Click to read more!
   </div>
+<br>
+<div class="container">
+  <img src="/assets/images/services/academic.png" class="image">
+  <div class="overlay">
+    <div class="text">We represent the students interests to the department and faculty and aim to protect your rights as a student. If you have an issue with a professor or a course, you may contact the vice-president of academic affairs at vp.academic@ecouo.ca.</div>
   </div>
-<div class="card">
-    <img src="/assets/images/services/academic.png">
-    <div class="card__overlay">
-      <div class="overlay__text">
-        <p>We represent the students interests to the department and faculty and aim to protect your rights as a student. If you have an issue with a professor or a course, you may contact the vice-president of academic affairs at vp.academic@ecouo.ca.</p>
-      </div>
-    </div>
+</div>
+ <br>
+<div class="container">
+  <img src="/assets/images/services/events.png" class="image">
+  <div class="overlay">
+    <div class="text">The ESA offers a mix of academic, social, and philanthropic events throughout the university year. From academic panels to holiday dinners, the ESA wants to provide an academic year full of well rounded events for all undergraduate economics students.</div>
   </div>
+</div>
+<br>
+<div class="container">
+  <img src="/assets/images/services/traditions.png" class="image">
+  <div class="overlay">
+    <div class="text">101 Week, Econ Week, and our annual trip to New York City are all large traditions of the ESA. Additionaly, our previous work with Shinerama and Relay for Life is and will continue to be important for our association.</div>
+  </div>
+</div>
 
-  <div class="card">
-    <img src="/assets/images/services/events.png">
-    <div class="card__overlay">
-      <div class="overlay__text">
-        <p>The ESA offers a mix of academic, social, and philanthropic events throughout the university year. From academic panels to holiday dinners, the ESA wants to provide an academic year full of well rounded events for all undergraduate economics students.</p>
-      </div>
-    </div>
-  </div>
-  
-  <div class="card">
-    <img src="/assets/images/services/traditions.png">
-    <div class="card__overlay">
-      <div class="overlay__text">
-        <p>101 Week, Econ Week, and our annual trip to New York City are all large traditions of the ESA. Additionaly, our previous work with Shinerama and Relay for Life is and will continue to be important for our association.</p>
-      </div>
-    </div>
-  </div>
-
-  <style>
-.description {
-  line-height: 10px;
-  margin-bottom: 20px;
+<style>
+  .container {
+    position: relative;
+    width: 100%;
   }
-
-      * {
-	box-sizing: border-box;
-}
-
-body {
-	padding: 0;    
-}
-
-.card {
-	position: relative;
-  transition: all .5s ease-in;
-  margin-left: 20px;
-  margin-right: 20px;
-  margin-bottom: 20px;
-}
-
-
-.card__image {
-  display: block;
-  width: 20px;
-  height: 20px;
-}
-
-.card__overlay {
-  position: absolute;
-  top: 0;
-  bottom: 0;
-  left: 0;
-  right: 0;
-  height: 100%;
-  width: 100%;
-  opacity: 0;
-  visibility: none;
-  transition: .5s ease;
-  background-color: #393839;
-}
-
-.card:hover .card__overlay {
-  opacity: 0.8;
-}
-
-.overlay__text {
-  color: white;
-  font-size: 20px;
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  -webkit-transform: translate(-50%, -50%);
-  -ms-transform: translate(-50%, -50%);
-  transform: translate(-50%, -50%);
-  text-align: center;
-}
-
+  
+  .image {
+    display: block;
+    width: 100%;
+    height: auto;
+  }
+  
+  .overlay {
+    position: absolute;
+    bottom: 100%;
+    left: 0;
+    right: 0;
+    background-color:#555A57;
+    overflow: hidden;
+    width: 100%;
+    height:0;
+    transition: .5s ease;
+    opacity: 80%;
+  }
+  
+  .container:hover .overlay {
+    bottom: 0;
+    height: 100%;
+  }
+  
+  .text {
+    color: white;
+    font-size: 2vw;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -webkit-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    text-align: center;
+    width: auto;
+    height: auto;
+  }
   </style>
 
 
@@ -959,54 +967,56 @@ body {
     </main><footer class="site-footer h-card">
   <data class="u-url" href="/"></data>
 
-  <div class="footer-left-text">
+  <div class="wrapper">
+    <div class="site-footer-inner">
 <div>Copyright 2021 @ uOttawa ESA</div>
-  </div>
-
-  <div class="footer-center-text">
-  <a href="https://www.facebook.com/econuo/">
-    <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADAAAAAwCAYAAABXAvmHAAAABmJLR0QA/wD/AP+gvaeTAAACg0lEQVRoge2ZzWsTQRiHn8kmTWPVaqQoFpVG60FBEKPSg17E/8DYu+DRg6DFeOqlpH4UD96K4FFtwKOCIniyl5SCHrxoxENEtKSKNJ+bHQ+xZT/SppOP3Vj2gRzmfTPz/n6ZmewkAz4+bSE2zF47EmZg97BLWhqzspzj4afyeunGBm6f3Yus3QMSQH+XpG2WIpI0onaD1OJPe9JpoC5+HhhxQ50CWaqVMe6//2EOBhxvq3/yvSYeIEYwdMcetM7A9bEI/dU83i+b9SgS3h5l8m1pNWCdgXB5mN4VDxBB/2P5UrEaMAi5KqcVKrLP3HTugf8M34DXBD2pKviIIV8h+A5EQBwALgAHVYdy28AKkqukMk8cmURC4/CXWQRXVAZ0cwlJ4DLTDcQDpNM1IKs6qHsGBM9JZV50elgXZ0A+7sao7u0Bo/LOEUvGLwHjwK5/EeUzmFsGCkx/WLZEkmeOgjFHs98kTXBnCQkKzpg+QpviwcsHmaG1LR62wJO4ewakMYosR5HlKH36qCOfN96s5VdfQjxSLdO9TVwVv5ixbVwzswtVwLax48dVy/TOEkokNOCEarfeMRDLHgMGVLt1bwmF5CFund4JgKbXmFr8aslPntpGKbBvrS2Mi62U6Z4BEcjUz2+A1JaAIUu+FDiPkC9NHVoq0ztLqEV8A17jG/Aa34DX+Aa8ZosZCFD1SMfm6RMVc9NqoBzOAUU39ShSILgjZw5YDTyYL4KYc1WSGs/MtzPQ8DSq3wTtHBDrWFnJIMn4a1twj+Ion6nICXuw8Rk2eXIIGbiLEONARLFQpykCT6nICWYWluzJ5hfdg9H96LIjf4EoExSS3/lvG110+/i0yV8yHqFPsHZDdAAAAABJRU5ErkJggg==">
-  </a>
-
-  <a href="https://www.instagram.com/ecouo">
-    <img src="data:image/png;base64,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">  
-  </a>
-
-  <a href="https://www.twitter.com/econuo">
-    <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADAAAAAwCAYAAABXAvmHAAAABmJLR0QA/wD/AP+gvaeTAAADo0lEQVRoge2YX4hUZRjGf++Z3Rm2XKOkuigoSjIqDJw5LotYF2lUJAWDUNlFYgRlu+GNzUxSs4QzawiyCHZhQeJFF0VC1EUaJUXQsnNG1/4RqEsKSumSLRvb7Mw5bxdLMrJ7zvnOmU0Kzu/uzHne732e+c583/kGEhISEhIS/sfIVe22I7cCV15CdD3KbUALOAXyKeLto+Kcn1dTWrWSSv2E35DhAUq5R0nXPqOMF9t4GYuGPQRaALp8VNOobmPYeYfta3qxGg8jvAx8T7U24De0Fdz43iUo79Ow98Q2DzCbext0B/7mAZYgsp+iXSPVmET4EFhBpvuNoKGDAzR6HgCuAx2kaO9j48ZUZPOl7DMoL5gXaBboBiYReYy/ppWS/ZCfOjiAckfbxYvcOXGIcv8N5mYQVN6MoP+HFsJR0BEkcxLX+81PGBxA9Mr7wgYazXFKufVGNgp2Dtq/BGO6UPIoq4HN7HK+8xMGB7CsiQU+vRXlMMXcIYrZuwPrhftM3PrUXgTWUa19HGgxcJBm+igw7XP3SZAfKeQ+4TV7AwPLM/MlXq+Z2wXwGKRa+yZMFr6MFu0R0EGDllMIR1D5FnXrdHWfxfP6UD1o4ncBa3mqYx+FqYKWtTmajRLd6UeAu0KUS1HyoHnEAtc1NOqDen4zfwXBj1DB3kQ6nUd5CnS8M0cRUebvygsQPAPiLUNlZO5Bk5lFsGWK4jZPmwhDllHrq7arnk4cRUN/YveJP02UwQEqY8eB0cWwFA352lQZHABAva1AsxM7MQhc+9sJDzBcd1DdxNULMUlm5nNTcXgAgGHnA1TWALW4rsyR/ZR/mDVVmwUAEO8WRMuovgc04lgzYAa3tTdKQfhGdhlZh7L1Xz7D7eWtY+eiFJjPAO4Q8GtEQ1E4Qya1M2qReYDqsQugT4D8HrWJAR7C85RHp6IWRpgBoOqMkrL6QL6I2igYGaJSOxKrMnbPwqosWI8jrAV8j3wGFg5QHdsMaJzqaDPQznC9DpwFsrHHQA5w8vYtxDQPcWZgYHmG3uufRnUbsDJmXwV9naqzkw7MQ1CAV1ffj7S60NS1WHoTc2fbB4G1QPyTFkwguoWK82UHY1zGfx/omf2F2dR2VF8BrlmEXn+A7qbZ3GP6pmmCwT9zfTdD61lUnoM4h3QdR3iXtHuQ8vFL0euDifYbKPbdA24/0M9cmBuBZcBSkEugU8AE8DOqNZTD7HLOLLbphISEhISEhP8KfwMZtQ5HnbijCgAAAABJRU5ErkJggg==">
-  </a>
-
-  <a href="https://www.snapchat.com/add/econuo">
-    <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADAAAAAwCAYAAABXAvmHAAAABmJLR0QA/wD/AP+gvaeTAAAEBklEQVRoge2ZXWgcVRiGn+9sfrq2RizVmLQWq1tQAlU6hlBNoYKoERRJTRCpijdeKGIv2pqkgis0adCW+ofohYiWXrRiEVHTG1HplgrZDTZQb1JtxTQpLdpKrNvsZufzYg1t7M7OnNlJ4kWeu915z/e9787snDNzYIEFKkIirba1+Saq3AdBHOBm4AYUwXAOZRSRNHkO8cbgmahaRhOgx1mLK0mENqDKR11A+RqjSfoyQ5W2rixAsqmGyfhu4IUQtRR4l9rsFpLHc2EthA+QbFpCLj6A0hq6RtFBippsG8njf4UZbkI17eiIMRnfV7F5AKWVS/EDJDf4XXolCRcg8Us38GiosaUQ2pic6Ao31Jaelnq0MAJcG6ZhGf7GyO30Dv5mM8j+DLhT3URvHuAaXN1qO8g+gMgj1mMCo9a17QJsa1kB3GrbJDhyy789AmMXoLrQaKUPg3EbrORWxQuy1EofBqPLrOR21V3XTh8CVws2crsAolkrfRgse9gFMFWzH0Bjl2zkdgHUtSoeCsse5WfiHmctmE5c9yKYQ8DviP5ciT9/9A7UrAAeQlzF6Gf0Dv3gpfYO0O08BvIp/uv7qCkAsSs+u6Ab2Zn5vJTY+xIS8yRzbx5mmgcwIE94ib0DKANROaoc+cbryH/TXiY19iPrG88ALcDiWXAVhD9QttGfft9L4L+cLj55taM8C2yI0l0Zvgf9iMKig7x+ZKKc0O55oMt5E5GXKrLmh+pb9Gc2B5VbTmRSa23IFjE1VvLAyu3rluPmR4C4rSdLspjq1fQePR1EHPQMCIX8B8y+eYA47tSHBPxxve9CV9LV/DxC4OsyAhK0Lj9LamzQT+ifsst5AJEvgNm//meSQ7SdvsxX5UTlz0C38wwi+4BFUToLSAyknfUNo6TGj3mJSp+BV5zbKMgOwHMKn2P2E9Pt7MhctZC8HKDHaQDTierDwH1A9RwaDEIe+BYYQHQ/fZlxmA7Q0REjcfIUYPVGYB4ZpXbJKpLfTRVvo00/xYC6+fVkxXVwzsD0PFB8vf0UcGEeTQXlArBp+pX8zD/xljU3Ul37NMpGRB3+P/+DHEoaowfJ5feya/js9AHveeDFRC2L6+5FjOdafE4QuZ+J8yneOTFZ8rBvge67R4BE1L4CcoKd6dXlBP6PjKq7EXmPYtiTKOMICjQCqyKxiZ4COQ3UULwT1he/lj1+I4OtRpPrlvInWfYcnfleqKf5LlRfI/Rmh36J8OpVm33POdXU5WvYNXzRr0JEu5TNm1DeBr0+2AA5j+hm+tKfVNo62GrUj8Njw9xTvxcTWwaswfuHcVH9GLfwOP1DqShaR7vRDfCysxJjOlG9E8NKAJRfET2GmAO2W0gLLDDL/AMYjxg4s/FbXwAAAABJRU5ErkJggg==">  </a>  
-  </div>
-<div class="footer-right-text">
-<a href="https://drive.google.com/file/d/1Lr4n_Az_FUi86at5hICPc-4T766uJiEp/view?usp=sharing"><u>Constitution</u></a>
-<a href="/archives.html"><u>Archives</u></a>
+<br>
+      <center> 
+        <div>
+         <a href="https://www.facebook.com/econuo/"> <img src="/assets/images/socialmedia/facebook.png">
+         </a><a href="https://www.instagram.com/ecouo"> <img src="/assets/images/socialmedia/instagram.png">
+         </a><a href="https://www.snapchat.com/add/econuo"> <img src="/assets/images/socialmedia/snapchat.png">
+         </a><a href="https://www.twitter.com/econuo"> <img src="/assets/images/socialmedia/twitter.png">
+       </a>
 </div>
+     </center>
+      <div style="text-align: right; font-size: medium;"><span class="notranslate">
+        <a href="https://drive.google.com/file/d/1Lr4n_Az_FUi86at5hICPc-4T766uJiEp/view?usp=sharing"><u>Constitution</u></a>
+        <a href="/archives.html"><u>Archives</u></a>
+      </span></div>
+<br>
+    
+    </div>
+  </div>
 </footer>
 
-<style>
-  .footer-left-text{
-    text-align: left;
-    padding: 0px;
-    margin-top: 50px;
-    margin-left: 100px;
-    font-size: medium;
-  }
-  
-  .footer-center-text{
-    text-align: center;
-    padding: 0px;
-    margin-top: -50px;
-  }
-  
-  .footer-right-text{
-    text-align: right;
-    margin-right: 100px;
-    margin-bottom: 50px;
-    padding: 0px;
-    font-size: medium;
-  }
-  </style>
-</body>
+  <!-- Messenger Chat plugin Code -->
+<div id="fb-root"></div>
+
+<!-- Your Chat plugin code -->
+<div id="fb-customer-chat" class="fb-customerchat">
+</div>
+
+<script>
+  var chatbox = document.getElementById('fb-customer-chat');
+  chatbox.setAttribute("page_id", "492983410726400");
+  chatbox.setAttribute("attribution", "biz_inbox");
+
+  window.fbAsyncInit = function() {
+    FB.init({
+      xfbml            : true,
+      version          : 'v11.0'
+    });
+  };
+
+  (function(d, s, id) {
+    var js, fjs = d.getElementsByTagName(s)[0];
+    if (d.getElementById(id)) return;
+    js = d.createElement(s); js.id = id;
+    js.src = 'https://connect.facebook.net/en_US/sdk/xfbml.customerchat.js';
+    fjs.parentNode.insertBefore(js, fjs);
+  }(document, 'script', 'facebook-jssdk'));
+</script>
+
+  </body>
 </html>

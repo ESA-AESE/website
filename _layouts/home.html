@@ -1,13 +1,111 @@
 ---
-layout: default
+layout: articles
 heading: 'Your awesome heading'
 subheading: 'Your awesome subheading'
 banner: 'default'
 ---
-{%- include views/services.html -%}
 
-{%- include views/team.html -%}
+    {{ content }}
+<!--Services section-->
+<center><h1><a href="services.html">Services</a></h1>
+<div style="font-size: medium;">
+  Here are your some of the services that the ESA offers. Click to read more!
+</div>
+</center>
+  <br>
+  <div class="container">
+    <img src="/assets/images/services/academic.png" class="image">
+      <div class="overlay">
+        <div class="text">We represent the students interests to the department and faculty and aim to protect your rights as a student. If you have an issue with a professor or a course, you may contact the vice-president of academic affairs at vp.academic@ecouo.ca.</div>
+        </div>
+      </div>
+<br>
+  <div class="container">
+    <img src="/assets/images/services/events.png" class="image">
+      <div class="overlay">
+          <div class="text">The ESA offers a mix of academic, social, and philanthropic events throughout the university year. From academic panels to holiday dinners, the ESA wants to provide an academic year full of well rounded events for all undergraduate economics students.</div>
+      </div>
+  </div>
+<br>
+  <div class="container">
+    <img src="/assets/images/services/traditions.png" class="image">
+      <div class="overlay">
+          <div class="text">101 Week, Econ Week, and our annual trip to New York City are all large traditions of the ESA. Additionaly, our previous work with Shinerama and Relay for Life is and will continue to be important for our association.</div>
+      </div>
+  </div>
+<br>
+<!--News Section-->
+        <h1> <center><a href="">Current news and events</a></center></h1>
 
-<h2> Current news and updates</h2>
 
-{%- include views/articles.html -%}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<!--Style for Services-->
+<style>
+  .container {
+    position: relative;
+    width: 100%;
+  }
+  
+  .image {
+    display: block;
+    width: 100%;
+    height: auto;
+  }
+  
+  .overlay {
+    position: absolute;
+    bottom: 100%;
+    left: 0;
+    right: 0;
+    background-color:#555A57;
+    overflow: hidden;
+    width: 100%;
+    height:0;
+    transition: .5s ease;
+    opacity: 80%;
+  }
+  
+  .container:hover .overlay {
+    bottom: 0;
+    height: 100%;
+  }
+  
+  .text {
+    color: white;
+    font-size: 1.5vw;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -webkit-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    text-align: center;
+    width: auto;
+    height: auto;
+  }
+  </style>

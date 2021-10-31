@@ -132,7 +132,7 @@ html[data-scroll-status='down'] .framework .sidebar { top: 20px; }
 /** Site footer */
 .site-footer { font-size: 14px; color: #404040; background-color: #f2f2f2; text-align: left; transition: background-color 0.2s; }
 
-.site-footer .site-footer-inner { transition: border-top 0.2s; padding: 54px 0; }
+.site-footer .site-footer-inner { transition: border-top 0.2s; padding: 54px 0; width: 100%; height: auto; }
 
 .site-footer a { color: #007a35; }
 

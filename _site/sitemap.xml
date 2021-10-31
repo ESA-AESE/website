@@ -53,8 +53,16 @@
 <lastmod>2018-12-07T00:00:00-05:00</lastmod>
 </url>
 <url>
+<loc>/2020/05/15/sci.html</loc>
+<lastmod>2020-05-15T00:00:00-04:00</lastmod>
+</url>
+<url>
 <loc>/markdown/2021/07/15/news.html</loc>
 <lastmod>2021-07-15T00:00:00-04:00</lastmod>
+</url>
+<url>
+<loc>/2021/10/12/office.html</loc>
+<lastmod>2021-10-12T00:00:00-04:00</lastmod>
 </url>
 <url>
 <loc>/archives_subfiles/2020-21.html</loc>
@@ -85,5 +93,9 @@
 </url>
 <url>
 <loc>/team.html</loc>
+</url>
+<url>
+<loc>/news/Platforms.pdf</loc>
+<lastmod>2021-08-05T16:34:26-04:00</lastmod>
 </url>
 </urlset>

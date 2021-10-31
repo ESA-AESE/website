@@ -194,10 +194,13 @@ html {
   background-color: $footer-background-color;
   text-align: left;
   transition: background-color 0.2s;
+ 
 
   .site-footer-inner {
     transition: border-top 0.2s;
     padding: $spacing-unit * 1.8 0;
+    width: 100%;
+    height:auto;
   }
 
   a {
