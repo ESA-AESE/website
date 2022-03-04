@@ -28,8 +28,8 @@ For any questions about our elections, please email <a href= "mailto:ceo@ecouo.c
             Form Link
         </button>
 </center>
-    <br />
-(FR) <br />
+    
+(FR) 
 
 **L’AÉSÉ** organise ses élections pour **le comité exécutif 2022-2023!** 
 Si vous souhaitez vous présenter à un poste, remplissez et envoyez le formulaire de lettre d’intention en ligne d’ici **dimanche 6 mars à 19h (heure de l’Est).**
