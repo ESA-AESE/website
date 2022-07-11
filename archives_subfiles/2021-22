@@ -1,0 +1,102 @@
+---
+layout: about
+title: 2021-22
+---
+
+<div>
+  <center>
+  <h3 class="head">Presidents and Vice Presidents</h3>
+  </center>
+      <p class="names">
+    <span class="notranslate">Abigail Marsh</span>
+    </p>
+    <p class="designation">President</p>
+    <br>
+    <p class="names">Torie Wotton</p>
+    <p class="designation">Vice-President of Internal Affairs</p>
+    <br>
+    <p class="names"><span class="notranslate">Alison Francis<span></p>
+    <p class="designation">Vice-President of Finance</p>
+    <br>
+    <p class="names"><span class="notranslate">Carson Baker<span></p>
+    <p class="designation">Vice-President of Social Affairs</p>
+    <br>
+    <p class="names"><span class="notranslate">Sravya Cherukuri<span></p>
+    <p class="designation">Vice-President of Academic Affairs</p>
+    <br>
+    <p class="names"><span class="notranslate">Hayley Touchburn<span></p>
+    <p class="designation">Vice-President of Francophone Affairs</p>
+    <br>
+    <p class="names">Oyin Faluyi</p>
+      <p class="designation">Vice-President of Philanthropy</p>
+    <br>
+    <p class="names"><span class="notranslate">Nabila Antora<span></p>
+    <p class="designation">Vice-President of International Affairs</p>
+    <br>
+    <p class="names">Camilla Guiterrez</p>
+    <p class="designation">Vice-President of Communications</p>
+    <br>
+    <p class="names">Kaitlyn Lu</p>
+    <p class="designation">Vice-President of Equity</p>
+      <center>
+    <h3 class="head">Directors</h3>
+      </center>
+    <p class="names">
+    <span class="notranslate">Corrine Lament</span></p>
+    <p class="designation">Director of External Affair </p>
+    <br>
+      <p class="names">
+    <span class="notranslate">Liam O'Brian</span>
+    </p>
+    <p class="designation">Director of Student Engagement and Outreach</p>
+    <br>
+    <p class="names">Aayush Gugnani</p>
+      <p class="designation">Director of Information Technology</p>
+    <br>
+      <p class="names">Rabbihya Sayeda</p>
+    <p class="designation">Director of Promotions</p>
+     <br>
+      <p class="names">Charlotte Stretton</p>
+    <p class="designation">Director of External Affairs</p>
+      <center>
+    <h3 class="head">Junior Vice-Presidents</h3>
+      </center>
+    <p class="names">Adrianna Suuronen</p>
+    <p class="designation">Junior Vice-President of Academic Affairs</p>
+    <br>
+    <p class="names">
+    <span class="notranslate">Stella Till</span> </p>
+    <p class="designation">Junior Vice-President of Social Affairs </p>
+    <br>
+    <p class="names">
+    <span class="notranslate">Leila Louis</span> </p>
+    <p class="designation">Junior Vice-President of Francophone Affairs </p>
+     <br>
+    <p class="names">
+    <span class="notranslate">Diego Flores</span> </p>
+    <p class="designation">Junior Vice-President of Communications </p>
+  </div>
+  <style>
+      .names{
+        margin: 0%;
+        text-align: center;
+        font-size: 20px;
+        font-style: bold;
+      }
+      
+      .designation {
+        text-align: center;
+        opacity: 0.7;
+        font-style: italic;
+        margin-top: -30px;
+        font-size: 20px;
+        color: green;
+        text
+      }
+    
+    .head {
+          margin-top: -10px;
+          text-decoration: underline;
+      }
+  
+  </style>
