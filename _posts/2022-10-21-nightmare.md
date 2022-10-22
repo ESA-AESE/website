@@ -6,7 +6,7 @@ subtitle: 🎃👻🎃👻🎃👻
 Mic check 1,2 
 Is this thing working?
 
-Hey ESA members! Are you ready for the craziest night ever? 
+Are you ready for the craziest night ever? 
 
 Join us at the **Whiskey Bar** on the **4th of November** for the biggest Halloween rager in Ottawa!
 
@@ -19,7 +19,7 @@ DON’T MISS OUT! 🎃👻
 Test test 1,2 
 Est-ce que ce truc fonctionne?
 
-Salut ESA membres! Êtes-vous prêts pour une nuit la plus folle de tous les temps ? 
+Êtes-vous prêts pour une nuit la plus folle de tous les temps ? 
 
 Rejoignez-nous au **Whiskey Bar** le **4 Novembre** pour la plus grande fête d’Halloween à Ottawa. 
 
